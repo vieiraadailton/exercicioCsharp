@@ -1,0 +1,127 @@
+/*
+https://nologin.in/backendfic
+https://quartz-sock-895.notion.site/Aula-10-09-cc11d6b26e1782ca82a081c0822dcf44 - Aula 19/10/26 - Fundamentos C# - Material no Notion 
+//numeros inteiros
+int idade = 29;
+
+//numeros inteiros longos
+//as letras ao final, são delimitadores para não gerar dizimas periodicas.
+long pop_da_terra = 80000000L;
+
+double preco = 19.95;
+float altura = 1.70f;
+decimal salario = 3500.5m;
+
+//string que guarda somente 1 letra/caracter
+
+Console.WriteLine - mostra a sentenca e realiza a quebra de linha para a proxima
+Console.Write - mostra a sentenca e mantem na mesma linha
+
+int idade = int.Parse(Console.ReadLine()); //Conversao de string para numero
+
+//Interpolacao de string com interaçao com o usuario
+Console.WriteLine("Bom dia, digite seu nome:"); //msg inicial
+string nome = Console.ReadLine(); //salva o dado em uma variavel
+string boas_vindas = $"Olá, seja bem vindo {nome}"; // interpola as duas strings
+Console.Write(boas_vindas); // retorna a msg personalizada
+
+
+exercicios
+1 - exibir uma mensagem
+
+2- declarar e usar uma variavel
+crie um programa que declare uma variavel inteira chamada numero com o valor 10. em seguida imprima o valor dessa variavel no console
+
+3 - fazer uma soma
+escreva um programa que declare duas variaveis inteiras, o usuario digite no console. calcule a soma das duas e imprima o resultado. 
+
+4 - produto de dois numeros
+declare duas variaveis 8 e 7. calcule o produto.
+
+5 - calcular o dobro
+declare uma variavel inteira valor. em seguida calcule o dobro desse numero utilizado a variavel e exiba o resultado
+
+6 - verificar idade para voltar
+peca ao usuario para digitr sua idade. comparar a idade e verificar se [é maior ou igual a 16. imprimir resultado
+
+7 - peca ao usuario digitar a temperatura em celcius. o programa verifica e se é menor que 30 e imprime o resultado.
+
+8 - ficha de cadastro
+peca ao usuario que digite, um por vez, o nome, idade e cidade. depois monte uma unica frase com as niformacoes.
+*/
+
+////ex1
+//Console.WriteLine("Olá, mundo!");
+
+////ex2
+//int numero = 10;
+//Console.WriteLine(numero);
+
+
+////ex3
+//Console.WriteLine("Bem vindo a calculadora que só soma.");
+//Console.WriteLine("Insira o primeiro valor:");
+//int num1 = (int.Parse(Console.ReadLine()));
+//Console.WriteLine("Insira o segundo valor: ");
+//int num2 = int.Parse(Console.ReadLine());
+//int resultado = num1  + num2;
+//Console.WriteLine($"A soma entre os valores {num1} e {num2} é de {resultado}.");
+
+////ex4
+//int n1 = 8;
+//int n2 = 7;
+//int res = n1 * n2;
+//Console.WriteLine($"O resultado entre {n1} e {n2} é {res}.");
+
+////ex5
+//int valor = 96;
+//int dobro = valor * 2;
+//Console.WriteLine($"O dobro de {valor} é {dobro}.");
+
+//ex6
+//Console.Write("Digite sua idade: ");
+//int idade = int.Parse(Console.ReadLine());
+//if(idade >= 16 && idade <= 70)
+//{
+//    Console.WriteLine("Voce pode votar.");
+//} else if(idade > 70)
+//{
+//    Console.WriteLine("Seu voto é facultativo.");
+//}
+//else
+//{
+//    Console.WriteLine("Voce nao pode votar.");
+//}
+
+//resolucao prof 
+/*
+ Console.WriteLine("Digite sua idade: ")
+ int idade = int.Parse(Console.ReadLine())
+
+ */
+
+//ex7
+//Console.Write("Digite a temperatura atual em celsius: ");
+//int temp = int.Parse(Console.ReadLine());
+//if (temp < 10)
+//{
+//    Console.WriteLine("Ta frio lek");
+//}
+//else if (temp >= 10 && temp <30)
+//{
+//    Console.WriteLine("Tempo bom e fresco");
+//}
+//else
+//{
+//    Console.WriteLine("Tempo quente slc bicho, vamo praiar");
+//}
+
+//ex8
+Console.Write("Ola. Digite seu nome:");
+string nome = Console.ReadLine();
+Console.Write("Agora, digite sua idade: ");
+int idade  = int.Parse(Console.ReadLine());
+Console.Write("Por ultimo, a cidade que mora: ");
+string cidade = Console.ReadLine();
+string saudacao = $"Seja bem-vindo {nome}. Sua idade é {idade} e voce fala de {cidade}";
+Console.WriteLine(saudacao);
