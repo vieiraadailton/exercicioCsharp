@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\40974115860\\source\\repos\\calculadora\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F1B9FF9-CF40-1E48-D7A0-0BF70034C4E7}|calculadora\\calculadora.csproj|c:\\users\\40974115860\\source\\repos\\calculadora\\calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F1B9FF9-CF40-1E48-D7A0-0BF70034C4E7}|calculadora\\calculadora.csproj|solutionrelative:calculadora\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\40974115860\\source\\repos\\calculadora\\calculadora\\Program.cs",
+              "RelativeDocumentMoniker": "calculadora\\Program.cs",
+              "ToolTip": "C:\\Users\\40974115860\\source\\repos\\calculadora\\calculadora\\Program.cs*",
+              "RelativeToolTip": "calculadora\\Program.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-20T19:51:39.779Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

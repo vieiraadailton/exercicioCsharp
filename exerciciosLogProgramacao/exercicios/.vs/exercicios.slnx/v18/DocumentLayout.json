@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\40974115860\\source\\repos\\exerciciosLogProgramacao\\exercicios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E7F329-B92B-CEE6-6FA6-F3B2DC0E803B}|exercicios\\exercicios.csproj|c:\\users\\40974115860\\source\\repos\\exercicioslogprogramacao\\exercicios\\exercicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E7F329-B92B-CEE6-6FA6-F3B2DC0E803B}|exercicios\\exercicios.csproj|solutionrelative:exercicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\40974115860\\source\\repos\\exerciciosLogProgramacao\\exercicios\\exercicios\\Program.cs",
+              "RelativeDocumentMoniker": "exercicios\\Program.cs",
+              "ToolTip": "C:\\Users\\40974115860\\source\\repos\\exerciciosLogProgramacao\\exercicios\\exercicios\\Program.cs",
+              "RelativeToolTip": "exercicios\\Program.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAADwv3kAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-21T19:52:29.231Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+C:\Users\40974115860\source\repos\exercicio201026\exercicio201026\bin\Debug\net10.0\exercicio201026.exe
+C:\Users\40974115860\source\repos\exercicio201026\exercicio201026\bin\Debug\net10.0\exercicio201026.deps.json
+C:\Users\40974115860\source\repos\exercicio201026\exercicio201026\bin\Debug\net10.0\exercicio201026.runtimeconfig.json
+C:\Users\40974115860\source\repos\exercicio201026\exercicio201026\bin\Debug\net10.0\exercicio201026.dll
+C:\Users\40974115860\source\repos\exercicio201026\exercicio201026\bin\Debug\net10.0\exercicio201026.pdb
+C:\Users\40974115860\source\repos\exercicio201026\exercicio201026\obj\Debug\net10.0\exercicio201026.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40974115860\source\repos\exercicio201026\exercicio201026\obj\Debug\net10.0\exercicio201026.AssemblyInfoInputs.cache
+C:\Users\40974115860\source\repos\exercicio201026\exercicio201026\obj\Debug\net10.0\exercicio201026.AssemblyInfo.cs
+C:\Users\40974115860\source\repos\exercicio201026\exercicio201026\obj\Debug\net10.0\exercicio201026.csproj.CoreCompileInputs.cache
+C:\Users\40974115860\source\repos\exercicio201026\exercicio201026\obj\Debug\net10.0\exercicio201026.dll
+C:\Users\40974115860\source\repos\exercicio201026\exercicio201026\obj\Debug\net10.0\refint\exercicio201026.dll
+C:\Users\40974115860\source\repos\exercicio201026\exercicio201026\obj\Debug\net10.0\exercicio201026.pdb
+C:\Users\40974115860\source\repos\exercicio201026\exercicio201026\obj\Debug\net10.0\exercicio201026.genruntimeconfig.cache
+C:\Users\40974115860\source\repos\exercicio201026\exercicio201026\obj\Debug\net10.0\ref\exercicio201026.dll
