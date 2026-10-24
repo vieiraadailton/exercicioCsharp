@@ -32,10 +32,113 @@ Leia a idade de uma pessoa e use operador ternário para mostrar:
     
     - 1 → "Novo jogo"
     - 2 → "Carregar jogo"
-    - 3 → "Sair" 
+    - 3 → "Sair"
+
+---
+
+## Nível Médio
+
+1. **Classificação de idade**
+Leia a idade e classifique:
+    - Criança (até 12)
+    - Adolescente (13 a 17)
+    - Adulto (18 ou mais)
+2. **Maior entre dois (ternário)**
+Leia dois números e use operador ternário para mostrar o maior.
+3. **Acesso com duas condições**
+Leia:
+    - idade
+    - possui ingresso (true/false)
+    Só pode entrar se tiver mais de 18 **ou** possuir ingresso.
+4. **Número dentro de faixa inválida**
+Leia um número.
+Se estiver fora do intervalo de 0 a 10, mostrar "Valor inválido".
+5. **Desconto por idade**
+Leia a idade:
+    - Menor de 18 → sem desconto
+    - 18 a 59 → 10%
+    - 60 ou mais → 20%
+6. **Desconto com ternário**
+    
+    Leia o valor de uma compra:
+    
+    - >= 200 → 15% desconto
+    - < 200 → 5% desconto
+7. **Calculadora com switch**
+    
+    Leia dois números e uma operação (+, -, *, /).
+    
+8. **Dia útil ou fim de semana (switch)**
+    
+    Leia um número de 1 a 7.
+    
+    - 1 e 7 → Fim de semana
+    - 2 a 6 → Dia útil
+9. **Plano de internet (switch)**
+    
+    Leia o plano:
+    
+    - "Básico" → 10MB
+    - "Intermediário" → 50MB
+    - "Premium" → 100MB
+
+---
+
+## Nível Difícil
+
+1. **Sistema de notas completo**
+Leia a nota (0 a 10):
+    - >= 7 → Aprovado
+    - = 5 e < 7 → Recuperação
+    - < 5 → Reprovado
+    Se a nota for inválida (<0 ou >10), informar isso.
+2. **Triângulo (simplificado)**
+Leia três números.
+Verifique se todos são maiores que zero.
+Se sim, informe "Pode formar um triângulo", senão "Inválido".
+3. **Calculadora simples**
+    
+    Leia:
+    
+    - número 1
+    - número 2
+    - operador (+, -, *, /)
+    
+    Execute a operação correspondente usando if/else.
+    
+4. **Login com tentativas**
+Leia usuário e senha.
+Se estiver correto (usuário e senha), acesso liberado.
+Caso contrário, acesso negado.
+5. **Ternário encadeado (desafio)**
+Leia um número e classifique usando **apenas operador ternário**:
+    - Negativo
+    - Zero
+    - Positivo
+6. **Menu de operações completo (switch + if)**
+    
+    Leia:
+    
+    - número 1
+    - número 2
+    - operação (+, -, *, /)
+    
+    Use `switch` para escolher a operação
+    
+    e valide divisão por zero com `if`.
+    
+7. **Escolha de bebida (switch)**
+    
+    Leia uma opção:
+    
+    - 1 → Água
+    - 2 → Refrigerante
+    - 3 → Suco
+    
+    Mostre também o preço (você pode definir os preços de forma aleatória).
 
  */
-
+//Facil
 //1
 
 //Console.WriteLine("Insira a temperatura atual: ");
@@ -102,20 +205,100 @@ Leia a idade de uma pessoa e use operador ternário para mostrar:
 //}
 
 //7
-Console.WriteLine("Insira um numero de 1 a 3");
-int menu = int.Parse(Console.ReadLine());
-switch (menu)
-{
-    case 1:
-        Console.WriteLine("Novo jogo");
-        break;
-    case 2:
-        Console.WriteLine("Carregar jogo");
-        break;
-    case 3:
-        Console.WriteLine("Sair");
-        break;
-    default:
-        Console.WriteLine("Insira um número válido");
-        break;
-}
+//Console.WriteLine("Insira um numero de 1 a 3");
+//int menu = int.Parse(Console.ReadLine());
+//switch (menu)
+//{
+//    case 1:
+//        Console.WriteLine("Novo jogo");
+//        break;
+//    case 2:
+//        Console.WriteLine("Carregar jogo");
+//        break;
+//    case 3:
+//        Console.WriteLine("Sair");
+//        break;
+//    default:
+//        Console.WriteLine("Insira um número válido");
+//        break;
+//}
+
+//Medio
+//1
+//Console.WriteLine("Insira sua idade: ");
+//int idade = int.Parse(Console.ReadLine());
+//if (idade >= 0 && idade <= 12)
+//{
+//    Console.WriteLine("Sua classificação é criança.");
+//}
+//else if (idade >= 13 && idade <= 17)
+//{
+//    Console.WriteLine("Sua classificação é adolescente.");
+//}
+//else if (idade > 17)
+//{
+//    Console.WriteLine("Sua classificação é adulto.");
+//}
+//else
+//{
+//    Console.WriteLine("Digite um número válido.");
+//}
+
+//2
+//Console.WriteLine("Insira dois números: ");
+//int n1 = int.Parse(Console.ReadLine());
+//int n2 = int.Parse(Console.ReadLine());
+
+//string resultado = n1 > n2 ? $"{n1} é maior que {n2}." : $"{n2} é maior que {n1}.";
+//Console.WriteLine(resultado);
+
+//3
+//Console.WriteLine("Digite a idade: ");
+//int idade = int.Parse(Console.ReadLine());
+//Console.WriteLine("Possui ingresso? S - Para sim, N - Para não.");
+//char ingresso = char.Parse(Console.ReadLine());
+//if(ingresso == 'n' && idade <18)
+//{
+//    Console.WriteLine("Voce não pode entrar.");
+//} else if (ingresso == 's' || idade >= 18)
+//{
+//    Console.WriteLine("Você pode entrar");
+//}
+
+//4
+//Console.WriteLine("Digite um número: ");
+//int n = int.Parse(Console.ReadLine());
+//if (n >= 0 &&  n <= 10)
+//{
+//    Console.WriteLine("Número válido.");
+//} else
+//{
+//    Console.WriteLine("Não é um número válido.");
+//}
+
+//5
+
+//Console.WriteLine("Digite sua idade: ");
+//int idade = int.Parse(Console.ReadLine());
+//if (idade < 18 && idade > 0)
+//{
+//    Console.WriteLine("Você não tem desconto.");
+//} else if (idade >=18 && idade <= 59)
+//{
+//    Console.WriteLine("Você possui 10% de desconto.");
+//} else if (idade >= 60 && idade < 130)
+//{
+//    Console.WriteLine("Você possui 20% de desconto.");
+//} else
+//{
+//    Console.WriteLine("Insira uma idade válida.");
+//}
+
+//6
+
+//Console.WriteLine("Digite o valor do produto: ");
+//int valor = int.Parse(Console.ReadLine());
+//int descontoQuinze = valor - ((valor * 15)/100);
+//int descontoCinco = valor - ((valor * 5) / 100);
+//string resultado = valor >= 200 ? $"15% de desconto, novo valor: {descontoQuinze}" : $"5% de desconto, novo valor: {descontoCinco}";
+//Console.WriteLine(resultado);

@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\40974115860\\source\\repos\\exerciciosLogProgramacao\\exercicio221026\\exercicio221026\\exercicio221026.csproj": {}
+    "C:\\Users\\vieir\\OneDrive\\Documentos\\Workspace\\CSharp\\exercicioCsharp\\exerciciosLogProgramacao\\exercicio221026\\exercicio221026\\exercicio221026.csproj": {}
   },
   "projects": {
-    "C:\\Users\\40974115860\\source\\repos\\exerciciosLogProgramacao\\exercicio221026\\exercicio221026\\exercicio221026.csproj": {
+    "C:\\Users\\vieir\\OneDrive\\Documentos\\Workspace\\CSharp\\exercicioCsharp\\exerciciosLogProgramacao\\exercicio221026\\exercicio221026\\exercicio221026.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\40974115860\\source\\repos\\exerciciosLogProgramacao\\exercicio221026\\exercicio221026\\exercicio221026.csproj",
+        "projectUniqueName": "C:\\Users\\vieir\\OneDrive\\Documentos\\Workspace\\CSharp\\exercicioCsharp\\exerciciosLogProgramacao\\exercicio221026\\exercicio221026\\exercicio221026.csproj",
         "projectName": "exercicio221026",
-        "projectPath": "C:\\Users\\40974115860\\source\\repos\\exerciciosLogProgramacao\\exercicio221026\\exercicio221026\\exercicio221026.csproj",
-        "packagesPath": "C:\\Users\\40974115860\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\40974115860\\source\\repos\\exerciciosLogProgramacao\\exercicio221026\\exercicio221026\\obj\\",
+        "projectPath": "C:\\Users\\vieir\\OneDrive\\Documentos\\Workspace\\CSharp\\exercicioCsharp\\exerciciosLogProgramacao\\exercicio221026\\exercicio221026\\exercicio221026.csproj",
+        "packagesPath": "C:\\Users\\vieir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vieir\\OneDrive\\Documentos\\Workspace\\CSharp\\exercicioCsharp\\exerciciosLogProgramacao\\exercicio221026\\exercicio221026\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\40974115860\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vieir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -41,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "all"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "10.0.400"
       },
       "frameworks": {
         "net10.0": {
@@ -63,7 +67,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
