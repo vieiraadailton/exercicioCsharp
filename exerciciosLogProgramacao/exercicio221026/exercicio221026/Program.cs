@@ -302,3 +302,56 @@ Leia um número e classifique usando **apenas operador ternário**:
 //int descontoCinco = valor - ((valor * 5) / 100);
 //string resultado = valor >= 200 ? $"15% de desconto, novo valor: {descontoQuinze}" : $"5% de desconto, novo valor: {descontoCinco}";
 //Console.WriteLine(resultado);
+
+//7
+//float resultado;
+//Console.WriteLine("Insira dois números: ");
+//float n1 = float.Parse(Console.ReadLine());
+//float n2 = float.Parse(Console.ReadLine());
+//Console.WriteLine("Selecione a operação deseja: ");
+//char menu = char.Parse(Console.ReadLine());
+//switch (menu)
+//{
+//    case '+':
+//        resultado = n1 + n2;
+//        Console.WriteLine($"{resultado}");
+//        break;
+
+//    case '-':
+//        resultado = n1 - n2;
+//        Console.WriteLine($"{resultado}");
+//        break;
+
+//    case '*':
+//        resultado = n1 * n2;
+//        Console.WriteLine($"{resultado}");
+//        break;
+
+//    case '/':
+//        resultado = n1 / n2;
+//        Console.WriteLine($"{resultado}");
+//        break;
+//    default:
+//        Console.WriteLine("Insira uma opção válida");
+
+//        break;
+//}
+
+//8
+//Console.WriteLine("Insira um número de 1 a 7");
+//int n = int.Parse(Console.ReadLine());
+//switch (n)
+//{
+//    case 1 or 7:
+//        Console.WriteLine("Fim de semana");
+//        break;
+//    case 2 or 3 or 4 or 5 or 6:
+//        Console.WriteLine("Dia útil");
+//        break;
+
+//    default:
+//        Console.WriteLine("Insira um número válido");
+//        break;
+//}
+
+//9
