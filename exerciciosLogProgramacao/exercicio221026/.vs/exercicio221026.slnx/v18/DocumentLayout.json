@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\vieir\\OneDrive\\Documentos\\Workspace\\CSharp\\exercicioCsharp\\exerciciosLogProgramacao\\exercicio221026\\",
+  "WorkspaceRootPath": "C:\\Users\\40974115860\\Desktop\\repos\\exerciciosLogProgramacao\\exercicio221026\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E43B233F-6D54-9A02-5E00-E72C152DABFE}|exercicio221026\\exercicio221026.csproj|c:\\users\\vieir\\onedrive\\documentos\\workspace\\csharp\\exerciciocsharp\\exercicioslogprogramacao\\exercicio221026\\exercicio221026\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E43B233F-6D54-9A02-5E00-E72C152DABFE}|exercicio221026\\exercicio221026.csproj|c:\\users\\40974115860\\desktop\\repos\\exercicioslogprogramacao\\exercicio221026\\exercicio221026\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E43B233F-6D54-9A02-5E00-E72C152DABFE}|exercicio221026\\exercicio221026.csproj|solutionrelative:exercicio221026\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\vieir\\OneDrive\\Documentos\\Workspace\\CSharp\\exercicioCsharp\\exerciciosLogProgramacao\\exercicio221026\\exercicio221026\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\40974115860\\Desktop\\repos\\exerciciosLogProgramacao\\exercicio221026\\exercicio221026\\Program.cs",
               "RelativeDocumentMoniker": "exercicio221026\\Program.cs",
-              "ToolTip": "C:\\Users\\vieir\\OneDrive\\Documentos\\Workspace\\CSharp\\exercicioCsharp\\exerciciosLogProgramacao\\exercicio221026\\exercicio221026\\Program.cs",
+              "ToolTip": "C:\\Users\\40974115860\\Desktop\\repos\\exerciciosLogProgramacao\\exercicio221026\\exercicio221026\\Program.cs",
               "RelativeToolTip": "exercicio221026\\Program.cs",
-              "ViewState": "AgIAAKIBAAAAAAAAAAAwwOABAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAJwBAAAAAAAAAAAswAYCAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-24T12:30:40.889Z",
               "EditorCaption": ""
