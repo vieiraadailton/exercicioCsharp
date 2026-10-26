@@ -355,3 +355,141 @@ Leia um número e classifique usando **apenas operador ternário**:
 //}
 
 //9
+//Console.WriteLine("Digite um entre as opções. \n1. Basico\n2. Intermediario\n3. Premium");
+//string selecao = Console.ReadLine();
+//switch (selecao)
+//{
+//    case "basico":
+//        Console.WriteLine($"Você selecionou {selecao} - O plano básico com 10MB");
+//        break;
+//    case "intermediario":
+//        Console.WriteLine($"Você selecionou {selecao} -  O plano intermediário com 50MB");
+//        break;
+//    case "premium":
+//        Console.WriteLine($"Você selecionou {selecao} - O plano premium com 100MB");
+//        break;
+//    default:
+//        Console.WriteLine("Insira um valor válido.");
+//        break;
+//}
+
+//Dificil
+//1
+//Console.WriteLine("Informe sua nota: ");
+//float nota = float.Parse(Console.ReadLine());
+//if (nota >=0 && nota < 5)
+//{
+//    Console.WriteLine("Reprovado");
+//} else if(nota >= 5 && nota < 7)
+//{
+//    Console.WriteLine("Recuperação");
+//} else if(nota >=7 && nota <= 10)
+//{
+//    Console.WriteLine("Aprovado");
+//}
+//else
+//{
+//    Console.WriteLine("Insira uma nota válida entre 0 e 10.");
+//}
+
+//2
+//Console.WriteLine("Insira três números: ");
+//int n1 = int.Parse(Console.ReadLine());
+//int n2 = int.Parse(Console.ReadLine());
+//int n3 = int.Parse(Console.ReadLine());
+//string res = n1 > 0 && n2 > 0 && n3 > 0 ? "Pode formar um triângulo" : "Inválido";
+//Console.WriteLine(res);
+
+//3
+//Console.WriteLine("Insira dois números: ");
+//float n1 = float.Parse(Console.ReadLine());
+//float n2 = float.Parse(Console.ReadLine());
+//Console.WriteLine("Insira o operador desejado: ");
+//char operador = char.Parse(Console.ReadLine());
+
+//if (operador == '-')
+//{
+//    float res = n1 - n2;
+//    Console.WriteLine(res);
+//} else if (operador == '+')
+//{
+//    float res = n1 + n2;
+//    Console.WriteLine(res);
+//} else if (operador == '*')
+//{
+//    float res = n1 * n2;
+//    Console.WriteLine(res);
+//} else if (operador == '/')
+//{
+//    float res = n1 / n2;
+//    Console.WriteLine(res);
+//}
+//4
+
+//5
+//Console.WriteLine("Insira um número: ");
+//int n = int.Parse(Console.ReadLine());
+//string res = n == 0 ? "Zero" : (n < 0 ? "Negativo" : "Positivo");
+//Console.WriteLine(res);
+
+//6
+//float resultado;
+//Console.WriteLine("Insira dois números: ");
+//float n1 = float.Parse(Console.ReadLine());
+//float n2 = float.Parse(Console.ReadLine());
+//Console.WriteLine("Selecione a operação deseja: ");
+//char menu = char.Parse(Console.ReadLine());
+//switch (menu)
+//{
+//    case '+':
+//        resultado = n1 + n2;
+//        Console.WriteLine($"{resultado}");
+//        break;
+
+//    case '-':
+//        resultado = n1 - n2;
+//        Console.WriteLine($"{resultado}");
+//        break;
+
+//    case '*':
+//        resultado = n1 * n2;
+//        Console.WriteLine($"{resultado}");
+//        break;
+
+//    case '/':
+//        if(n1 == 0 || n2 == 0)
+//        {
+//            Console.WriteLine("A operação não é válida.");
+//        }
+//        else
+//        {
+//            resultado = n1 / n2;
+//            Console.WriteLine($"{resultado}");
+//        }
+
+//        break;
+//    default:
+//        Console.WriteLine("Insira uma opção válida");
+
+//        break;
+//}
+
+//7
+Console.WriteLine("Selecione uma opção:\n1.Água\n2.Refrigerante\n3.Suco");
+int opcao = int.Parse(Console.ReadLine());
+Random valor = new Random();
+int valorMax = valor.Next(10);
+switch (opcao)
+{
+    case 1:
+        Console.WriteLine($"Você escolheu água - R${valorMax},00.");
+        break;
+
+    case 2:
+        Console.WriteLine($"Você escolheu refrigerante - R${valorMax},00.");
+        break;
+
+    case 3:
+        Console.WriteLine($"Você escolheu suco - R${valorMax},00.");
+        break;
+}
