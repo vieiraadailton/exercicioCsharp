@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\40974115860\\Desktop\\repos\\condicionais\\condicionais\\",
+  "WorkspaceRootPath": "C:\\Users\\vieir\\OneDrive\\Documentos\\Workspace\\CSharp\\exercicioCsharp\\condicionais\\condicionais\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7411361D-B0EB-48E0-996F-A1C92126CA5B}|condicionais\\condicionais.csproj|c:\\users\\40974115860\\desktop\\repos\\condicionais\\condicionais\\condicionais\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7411361D-B0EB-48E0-996F-A1C92126CA5B}|condicionais\\condicionais.csproj|solutionrelative:condicionais\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8D0C86D1-2358-7F3E-B661-C1029BCABB72}|condicionais\\condicionais.csproj|c:\\users\\vieir\\onedrive\\documentos\\workspace\\csharp\\exerciciocsharp\\condicionais\\condicionais\\condicionais\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8D0C86D1-2358-7F3E-B661-C1029BCABB72}|condicionais\\condicionais.csproj|solutionrelative:condicionais\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\40974115860\\Desktop\\repos\\condicionais\\condicionais\\condicionais\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\vieir\\OneDrive\\Documentos\\Workspace\\CSharp\\exercicioCsharp\\condicionais\\condicionais\\condicionais\\Program.cs",
               "RelativeDocumentMoniker": "condicionais\\Program.cs",
-              "ToolTip": "C:\\Users\\40974115860\\Desktop\\repos\\condicionais\\condicionais\\condicionais\\Program.cs*",
-              "RelativeToolTip": "condicionais\\Program.cs*",
-              "ViewState": "AgIAAHcAAAAAAAAAAAAswH8AAAAPAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\vieir\\OneDrive\\Documentos\\Workspace\\CSharp\\exercicioCsharp\\condicionais\\condicionais\\condicionais\\Program.cs",
+              "RelativeToolTip": "condicionais\\Program.cs",
+              "ViewState": "AgIAAMcAAAAAAAAAAAAqwN4AAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-26T17:49:50.225Z",
               "EditorCaption": ""
