@@ -1,0 +1,15 @@
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\loops\loops\bin\Debug\net10.0\loops.exe
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\loops\loops\bin\Debug\net10.0\loops.deps.json
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\loops\loops\bin\Debug\net10.0\loops.runtimeconfig.json
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\loops\loops\bin\Debug\net10.0\loops.dll
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\loops\loops\bin\Debug\net10.0\loops.pdb
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\loops\loops\obj\Debug\net10.0\loops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\loops\loops\obj\Debug\net10.0\loops.AssemblyInfoInputs.cache
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\loops\loops\obj\Debug\net10.0\loops.AssemblyInfo.cs
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\loops\loops\obj\Debug\net10.0\loops.csproj.CoreCompileInputs.cache
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\loops\loops\obj\Debug\net10.0\loops.sourcelink.json
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\loops\loops\obj\Debug\net10.0\loops.dll
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\loops\loops\obj\Debug\net10.0\refint\loops.dll
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\loops\loops\obj\Debug\net10.0\loops.pdb
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\loops\loops\obj\Debug\net10.0\loops.genruntimeconfig.cache
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\loops\loops\obj\Debug\net10.0\ref\loops.dll
