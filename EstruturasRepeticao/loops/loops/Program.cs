@@ -21,18 +21,121 @@ using System.Threading.Channels;
 //}
 //Console.WriteLine("Parabens, voce acertou!");
 
-int idadePericles;
-do
+//int idadePericles;
+//do
+//{
+//    Console.WriteLine("Digite a idade do Pericles: ");
+//    idadePericles = int.Parse(Console.ReadLine()!);
+//    if (idadePericles == 57)
+//    {
+//        Console.WriteLine("Parabens, voce acertou!");
+//        break;
+//    }
+//    Console.WriteLine(idadePericles > 57 ? "Tente uma idade menor" : "Tente uma idade maior");
+
+//    idadePericles = int.Parse(Console.ReadLine()!);
+
+//} while (idadePericles != 57);
+
+
+//estrutura FOREACH -> usado principalmente em conjunto de arrays, colecoes e listas.
+
+//string[] frutas = { "Abacaxi", "Amora", "Limao", "Laranja", "Banana", "Uva", "Melancia" }; //Indica que é uma matriz do tipo string
+
+
+//try //tentativa
+//{
+//    //Console.WriteLine(frutas[0]);
+
+//    //foreach (string fruta in frutas)
+//    //{
+//    //    Console.WriteLine(fruta);
+//    //};
+
+//    for(int fruta=0;fruta < frutas.Length; fruta++)
+//    {
+//        Console.WriteLine((frutas[fruta]));
+//    }
+//}
+//catch (IndexOutOfRangeException) //tratativa do erro
+//{
+//    Console.WriteLine("Index fora do alcance!");
+//}
+
+//int[] numeros = { 2, 4, 6, 8, 10, 12 };
+//int soma = 0;
+
+//foreach (int numero in numeros)
+//{
+
+//    soma += numero;
+//    Console.WriteLine(soma);
+//}
+
+/*Crie um programa que vai pedir um numero para o usuario e o programa deve mostrar a tabuada desse numero da seguinte maneira:
+ 5 x 1 = 5
+5 x 2 = 10 ...
+5 x 10 = 50
+
+e faca com que o programa continue perguntando um numero para a tabuada ate que o usuario decida sair do programa
+ */
+
+//bool resposta = true;
+//int acumulador;
+
+
+//while(resposta != false)
+//{
+//    Console.Write("Digite um número: ");
+//    int numero = int.Parse(Console.ReadLine()!);
+//    for (int inicio = 1; inicio <= 10; inicio++)
+//    {
+//        acumulador = numero * inicio;
+//        Console.WriteLine($"{numero} x {inicio} = {acumulador}");
+//    }
+//    Console.WriteLine("Deseja continuar? s - sim, n - não");
+//    char continuar = char.Parse(Console.ReadLine()!.ToLower());
+//    if(continuar == 'n')
+//    {
+//        break;
+//    }
+//}
+
+//int resultado;
+//for(int inicio = 1; inicio <= 10; inicio++)
+//{
+//    for(int meio = 1;  meio <= 10; meio++)
+//    {
+//        resultado = inicio * meio;
+//        Console.WriteLine($"----{inicio} x {meio}---- = {resultado}");
+//    }
+//    Console.WriteLine($"------- {inicio} -------");
+//}
+
+//media com foreach
+//1. faca um programa que leia 5 numeros e informe a soma e a media dos numeros.
+//int[] numeros = new int[5];
+//int soma = 0;
+
+//for(int i = 0; i < numeros.Length ; i++)
+//{
+//    Console.Write($"Insira o {i+1} numero: ");
+//    numeros[i] += int.Parse(Console.ReadLine()!);
+//}
+//foreach(int numero in numeros)
+//{
+//    soma += numero;
+//}
+//Console.WriteLine($"A soma dos números é: {soma} e a média é: {soma / numeros.Length}");
+
+//2. Faca um programa que, dado um conjunto de N numeros, determine o menor valor, o maior valor e a soma dos valores
+Console.WriteLine("Voce deseja inserar quantos números?");
+int soma = 0;
+int numero = int.Parse(Console.ReadLine());
+int[] numeros = new int[numero];
+foreach (int num in numeros)
 {
-    Console.WriteLine("Digite a idade do Pericles: ");
-    idadePericles = int.Parse(Console.ReadLine()!);
-    if (idadePericles == 57)
-    {
-        Console.WriteLine("Parabens, voce acertou!");
-        break;
-    }
-    Console.WriteLine(idadePericles > 57 ? "Tente uma idade menor" : "Tente uma idade maior");
+    soma += num;
+}
 
-    idadePericles = int.Parse(Console.ReadLine()!);
-
-} while (idadePericles != 57);
+//3. Numa eleicao existem tres candidatos, faca um programa que peca o numero total de eleitores . Peca para cada eleitor votar e ao final mostrar o numero de votos de cada candidato
