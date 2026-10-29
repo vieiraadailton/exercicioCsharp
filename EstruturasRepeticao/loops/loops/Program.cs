@@ -129,13 +129,92 @@ e faca com que o programa continue perguntando um numero para a tabuada ate que 
 //Console.WriteLine($"A soma dos números é: {soma} e a média é: {soma / numeros.Length}");
 
 //2. Faca um programa que, dado um conjunto de N numeros, determine o menor valor, o maior valor e a soma dos valores
-Console.WriteLine("Voce deseja inserar quantos números?");
-int soma = 0;
-int numero = int.Parse(Console.ReadLine());
-int[] numeros = new int[numero];
-foreach (int num in numeros)
-{
-    soma += num;
-}
+//Console.Write("Voce deseja inserir quantos números?");
+//int soma = 0;
+
+//int numero = int.Parse(Console.ReadLine()!);
+//int[] numeros = new int[numero];
+
+//for (int i =0; i < numeros.Length; i++)
+//{
+//    Console.Write($"Insira o {i+1} número: ");
+//    numeros[i] = int.Parse(Console.ReadLine()!);
+
+//}
+
+//int menor = numeros[0];
+//int maior = numeros[0];
+
+//for (int i =0;i < numeros.Length; i++)
+//{
+//    if (numeros[i] < menor)
+//    {
+//        menor = numeros[i];
+//    }
+//    if (numeros[i] > maior)
+//    {
+//        maior = numeros[i];
+//    }
+//}
+
+//foreach (int num in numeros)
+//{
+//    soma += num;
+//}
+
+//Console.WriteLine($"\nA soma dos números é: {soma}");
+//Console.WriteLine($"O maior número é: {maior}");
+//Console.WriteLine($"O menor número é: {menor}");
 
 //3. Numa eleicao existem tres candidatos, faca um programa que peca o numero total de eleitores . Peca para cada eleitor votar e ao final mostrar o numero de votos de cada candidato
+int candA = 0;
+int candB = 0; 
+int candC = 0;
+
+Console.Write("Informe a quantidade total de eleitores: ");
+int qtd = int.Parse(Console.ReadLine()!);
+int[] votos = new int[qtd];
+for(int i = 0; i < votos.Length; i++)
+{
+    Console.WriteLine($"Informe para quem deseja votar:\n1. Candidato A\n2. Candidato B\n3. Candidato C");
+    votos[i] = int.Parse(Console.ReadLine()!);
+}
+foreach(int voto in votos)
+{
+
+    string numeroVoto = voto switch
+    {
+        1 => $"Candidato A", 
+        2 => "Candidato B",
+        3 => "Candidato C",
+        _ => "Insira uma opção válida"
+    };
+
+    if (voto == 1)
+    {
+        candA++;
+    } else if (voto == 2) 
+    { candB++; 
+    } else 
+    { candC++; 
+    }
+
+}
+
+if(candA > candB && candA > candC)
+{
+    Console.WriteLine("A ganhou!");
+} else if (candB  > candA && candB > candC)
+{
+    Console.WriteLine("B ganhou!");
+}
+else if(candC > candA && candC < candB)
+{
+    Console.WriteLine("C ganhou!");
+}
+else
+{
+    Console.WriteLine("Houve um empate!");
+}
+
+Console.WriteLine($"O Candidato A recebeu {candA} votos, o Candidato B recebeu {candB} votos e o Candidato C recebeu {candC} votos!");
