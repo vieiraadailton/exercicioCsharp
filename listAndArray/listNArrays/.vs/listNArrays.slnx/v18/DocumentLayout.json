@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\40974115860\\Desktop\\csharp\\listAndArray\\listNArrays\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B45EFE81-B6B0-4D4C-9CB9-DCDE58C5D293}|listNArrays\\listNArrays.csproj|c:\\users\\40974115860\\desktop\\csharp\\listandarray\\listnarrays\\listnarrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B45EFE81-B6B0-4D4C-9CB9-DCDE58C5D293}|listNArrays\\listNArrays.csproj|solutionrelative:listnarrays\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\40974115860\\Desktop\\csharp\\listAndArray\\listNArrays\\listNArrays\\Program.cs",
+              "RelativeDocumentMoniker": "listNArrays\\Program.cs",
+              "ToolTip": "C:\\Users\\40974115860\\Desktop\\csharp\\listAndArray\\listNArrays\\listNArrays\\Program.cs",
+              "RelativeToolTip": "listNArrays\\Program.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAFYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T17:48:16.759Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

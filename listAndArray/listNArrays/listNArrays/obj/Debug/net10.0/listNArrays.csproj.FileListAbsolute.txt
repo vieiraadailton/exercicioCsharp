@@ -1,0 +1,15 @@
+C:\Users\40974115860\Desktop\csharp\listAndArray\listNArrays\listNArrays\bin\Debug\net10.0\listNArrays.exe
+C:\Users\40974115860\Desktop\csharp\listAndArray\listNArrays\listNArrays\bin\Debug\net10.0\listNArrays.deps.json
+C:\Users\40974115860\Desktop\csharp\listAndArray\listNArrays\listNArrays\bin\Debug\net10.0\listNArrays.runtimeconfig.json
+C:\Users\40974115860\Desktop\csharp\listAndArray\listNArrays\listNArrays\bin\Debug\net10.0\listNArrays.dll
+C:\Users\40974115860\Desktop\csharp\listAndArray\listNArrays\listNArrays\bin\Debug\net10.0\listNArrays.pdb
+C:\Users\40974115860\Desktop\csharp\listAndArray\listNArrays\listNArrays\obj\Debug\net10.0\listNArrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40974115860\Desktop\csharp\listAndArray\listNArrays\listNArrays\obj\Debug\net10.0\listNArrays.AssemblyInfoInputs.cache
+C:\Users\40974115860\Desktop\csharp\listAndArray\listNArrays\listNArrays\obj\Debug\net10.0\listNArrays.AssemblyInfo.cs
+C:\Users\40974115860\Desktop\csharp\listAndArray\listNArrays\listNArrays\obj\Debug\net10.0\listNArrays.csproj.CoreCompileInputs.cache
+C:\Users\40974115860\Desktop\csharp\listAndArray\listNArrays\listNArrays\obj\Debug\net10.0\listNArrays.sourcelink.json
+C:\Users\40974115860\Desktop\csharp\listAndArray\listNArrays\listNArrays\obj\Debug\net10.0\listNArrays.dll
+C:\Users\40974115860\Desktop\csharp\listAndArray\listNArrays\listNArrays\obj\Debug\net10.0\refint\listNArrays.dll
+C:\Users\40974115860\Desktop\csharp\listAndArray\listNArrays\listNArrays\obj\Debug\net10.0\listNArrays.pdb
+C:\Users\40974115860\Desktop\csharp\listAndArray\listNArrays\listNArrays\obj\Debug\net10.0\listNArrays.genruntimeconfig.cache
+C:\Users\40974115860\Desktop\csharp\listAndArray\listNArrays\listNArrays\obj\Debug\net10.0\ref\listNArrays.dll
