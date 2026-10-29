@@ -173,8 +173,15 @@ int candC = 0;
 
 Console.Write("Informe a quantidade total de eleitores: ");
 int qtd = int.Parse(Console.ReadLine()!);
+
+if(qtd < 0)
+{
+    Console.WriteLine("Insira um numero válido");
+    return;
+}
 int[] votos = new int[qtd];
-for(int i = 0; i < votos.Length; i++)
+
+for (int i = 0; i < votos.Length; i++)
 {
     Console.WriteLine($"Informe para quem deseja votar:\n1. Candidato A\n2. Candidato B\n3. Candidato C");
     votos[i] = int.Parse(Console.ReadLine()!);
@@ -182,13 +189,13 @@ for(int i = 0; i < votos.Length; i++)
 foreach(int voto in votos)
 {
 
-    string numeroVoto = voto switch
-    {
-        1 => $"Candidato A", 
-        2 => "Candidato B",
-        3 => "Candidato C",
-        _ => "Insira uma opção válida"
-    };
+    //string numeroVoto = voto switch
+    //{
+    //    1 => $"Candidato A", 
+    //    2 => "Candidato B",
+    //    3 => "Candidato C",
+    //    _ => "Insira uma opção válida"
+    //};
 
     if (voto == 1)
     {
@@ -203,18 +210,18 @@ foreach(int voto in votos)
 
 if(candA > candB && candA > candC)
 {
-    Console.WriteLine("A ganhou!");
+    Console.WriteLine("\nA ganhou!");
 } else if (candB  > candA && candB > candC)
 {
-    Console.WriteLine("B ganhou!");
+    Console.WriteLine("\nB ganhou!");
 }
-else if(candC > candA && candC < candB)
+else if(candC > candA && candC > candB)
 {
-    Console.WriteLine("C ganhou!");
+    Console.WriteLine("\nC ganhou!");
 }
 else
 {
     Console.WriteLine("Houve um empate!");
 }
 
-Console.WriteLine($"O Candidato A recebeu {candA} votos, o Candidato B recebeu {candB} votos e o Candidato C recebeu {candC} votos!");
+Console.WriteLine($"\nO Candidato A recebeu {candA} votos, o Candidato B recebeu {candB} votos e o Candidato C recebeu {candC} votos!");

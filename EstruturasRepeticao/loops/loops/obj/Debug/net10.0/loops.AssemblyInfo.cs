@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("loops")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5fbcf8c8016c7a15a8fec2f8e6b40bf8dd20935")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb1e53ac22abd0bd4170c0709349ce03ae0df2c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("loops")]
 [assembly: System.Reflection.AssemblyTitleAttribute("loops")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
