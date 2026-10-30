@@ -80,11 +80,11 @@ Criar um programa para manipulacao de dados usando listas
 bool continuar = true;
 
 List<string> frutas = new List<string> { "laranja", "morango", "mamao", "limao", "pera", "manga" };
-foreach (string fruta in frutas)
-{
-    Console.Write(fruta.ToLower() + ", ");
+//foreach (string fruta in frutas)
+//{
+//    Console.Write(fruta.ToLower() + ", ");
 
-}
+//}
 //Console.WriteLine($"\nA lista atual possui: {frutas.Count()} itens.");
 
 //frutas.Add("banana");
@@ -96,53 +96,170 @@ foreach (string fruta in frutas)
 //Console.WriteLine($"\nAgora, lista possui: {frutas.Count()} itens.");
 
 //List<string> frutas = new List<string>();
+
 do
 {
+    Console.Write("---------- Bem vindo ao menu! ----------\n\nPara prosseguirmos, digite uma opção:\n1. Adicionar itens\n2. Mostrar lista\n3. Atualizar item\n4. Remover item\n5. Ordenar lista\n6. Buscar item\n7. Sair\n----------------------------------------");
+    int opcao = int.Parse(Console.ReadLine()!);
+    
 
-    //Estrutura para adicionar elementos
-    //Console.WriteLine("Deseja inserir uma fruta ao conjunto? S - Sim, N - Não");
-    //char resposta = char.Parse(Console.ReadLine()!.ToLower().Trim());
-
-    //if (resposta == 's')
-    //{
-    //    Console.WriteLine("Digite o nome da fruta que deseja adicionar: ");
-    //    string fruta = Console.ReadLine()!.ToLower();
-    //    frutas.Add(fruta);
-    //    break;
-    //}
-
-    //if (resposta == 'n')
-    //{
-    //    break;
-    //}
-
-    //Estrutura para remover elementos
-    Console.WriteLine("Deseja remover alguma fruta do conjunto? S - Sim, N - Não");
-    char resposta = char.Parse(Console.ReadLine()!.ToLower().Trim());
-   
-    if (resposta == 's')
+    switch (opcao)
     {
-        Console.WriteLine("Digite o nome da fruta que deseja remover: ");
-        string fruta = Console.ReadLine()!.ToLower().Trim();
+        case 1:
+            //Estrutura para adicionar elementos
+            Console.WriteLine("Deseja inserir uma fruta ao conjunto? S - Sim, N - Não");
+            char inserir = char.Parse(Console.ReadLine()!.ToLower().Trim());
 
-        if(frutas.Contains(fruta) == true)
-        {
-            Console.WriteLine("A fruta existe na lista");
-            frutas.Remove(fruta);
-        }
-        break;
-    } 
+            if (inserir == 's')
+            {
+                Console.WriteLine("Digite o nome da fruta que deseja adicionar: ");
+                string fruta = Console.ReadLine()!.ToLower().Trim();
+                frutas.Add(fruta);
+                break;
+            }
 
-    if (resposta == 'n')
+            if (inserir == 'n')
+            {
+                break;
+            }
+            break;
+
+        case 2:
+            //Mostrar itens
+            Console.WriteLine("Deseja visualizar a lista de itens? S - Sim, N - Não");
+            char mostrar = char.Parse(Console.ReadLine()!.ToLower().Trim());
+
+            if (mostrar == 's')
+            {
+                foreach (string fruta in frutas)
+                {
+                    Console.Write(fruta.ToLower() + ", ");
+
+                }
+                Console.WriteLine($"\nA lista atual possui: {frutas.Count()} itens.");
+                break;
+            }
+
+            if (mostrar == 'n')
+            {
+                break;
+            }
+            break;
+
+        case 3:
+            //Estrutura para modificar em uma posicao especifica
+            Console.WriteLine("Deseja alterar alguma fruta do conjunto? S - Sim, N - Não");
+            char atualizar = char.Parse(Console.ReadLine()!.ToLower().Trim());
+
+            if (atualizar == 's')
+            {
+                Console.WriteLine("Digite o nome da fruta que deseja alterar: ");
+                string fruta = Console.ReadLine()!.ToLower().Trim();
+                if (frutas.Contains(fruta))
+                {
+
+                    int posicao = frutas.IndexOf(fruta);
+                    Console.WriteLine("Informe para qual nome deseja mudar: ");
+                    string alteracao = Console.ReadLine()!.ToLower().Trim();
+                    frutas[posicao] = alteracao;
+                    Console.WriteLine($"A alteração foi realizada com sucesso: {fruta} agora é {alteracao}");
+                }
+                break;
+            }
+
+            if (atualizar == 'n')
+            {
+                break;
+            }
+            break;
+
+        case 4:
+            //Estrutura para remover elementos
+            Console.WriteLine("Deseja remover alguma fruta do conjunto? S - Sim, N - Não");
+            char remover = char.Parse(Console.ReadLine()!.ToLower().Trim());
+
+            if (remover == 's')
+            {
+                Console.WriteLine("Digite o nome da fruta que deseja remover: ");
+                string fruta = Console.ReadLine()!.ToLower().Trim();
+
+                if (frutas.Contains(fruta) == true)
+                {
+                    Console.WriteLine("A fruta foi removida da lista");
+                    frutas.Remove(fruta);
+                }
+                break;
+            }
+
+            if (remover == 'n')
+            {
+                break;
+            }
+            break;
+
+        case 5:
+            //Ordenar lista
+            Console.WriteLine("Deseja ordenar o conjunto? S - Sim, N - Não");
+            char ordenar = char.Parse(Console.ReadLine()!.ToLower().Trim());
+
+            if (ordenar == 's')
+            {
+                Console.WriteLine("Selecione uma opção:\n1. Ordem Crescente\n2. Ordem Decrescente");
+                int selecao = int.Parse(Console.ReadLine()!);
+                if (selecao == 1)
+                {
+                    frutas.Sort();
+                }
+                else
+                {
+                    frutas.Sort();
+                    frutas.Reverse();
+                }
+                break;
+            }
+
+            if (ordenar == 'n')
+            {
+                break;
+            }
+            break;
+        case 6:
+            //Buscar item na lista
+            Console.WriteLine("Deseja buscar uma fruta? S - Sim, N - Não");
+            char buscar = char.Parse(Console.ReadLine()!.ToLower().Trim());
+
+            if (buscar == 's')
+            {
+                Console.WriteLine("Informe por qual fruta está buscando: ");
+                string selecao = Console.ReadLine()!;
+                if (frutas.Contains(selecao))
+                {
+                    Console.WriteLine("A fruta está na lista!");
+                }
+                else
+                {
+                    Console.WriteLine("A fruta não está lista.");
+                }
+            } 
+
+            if(buscar == 'n')
+            {
+                break;
+            }
+            break;
+        case 7:
+            Console.WriteLine("Obrigado por utilizar nosso menu!");
+            break;
+        default:
+            Console.WriteLine("Tente novamente! Informe um número válido.");
+            break;
+    }
+    
+        if(opcao == 7)
     {
         break;
     }
+    
+
 
 } while (continuar != false);
-
-foreach (string fruta in frutas)
-{
-    Console.Write(fruta.ToLower() + ", ");
-
-}
-Console.WriteLine($"\nA lista atual possui: {frutas.Count()} itens.");
