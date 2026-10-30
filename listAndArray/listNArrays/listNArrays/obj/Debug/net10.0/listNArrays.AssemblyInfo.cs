@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("listNArrays")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+808b9b1afac890e40fd3e3e47fbcdc2ccb3f7e89")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe626c0c7996c7b87bac8cef0c597139df9aa7a8")]
 [assembly: System.Reflection.AssemblyProductAttribute("listNArrays")]
 [assembly: System.Reflection.AssemblyTitleAttribute("listNArrays")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
