@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\vieir\\OneDrive\\Documentos\\Workspace\\CSharp\\EstruturasRepeticao\\exercicios\\exercicios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D71F699-6BA0-4A4A-B293-AA65190F8959}|exercicios.csproj|c:\\users\\vieir\\onedrive\\documentos\\workspace\\csharp\\estruturasrepeticao\\exercicios\\exercicios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D71F699-6BA0-4A4A-B293-AA65190F8959}|exercicios.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\vieir\\OneDrive\\Documentos\\Workspace\\CSharp\\EstruturasRepeticao\\exercicios\\exercicios\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\vieir\\OneDrive\\Documentos\\Workspace\\CSharp\\EstruturasRepeticao\\exercicios\\exercicios\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAANIAAAAAAAAAAAAuwOQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-30T12:56:25.308Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
