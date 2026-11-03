@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\40974115860\\Desktop\\csharp\\listAndArray\\crudSqlite\\cruqSqlite\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BEA2DAD0-7A53-4024-BF19-8F52FEB78A19}|cruqSqlite\\cruqSqlite.csproj|c:\\users\\40974115860\\desktop\\csharp\\listandarray\\crudsqlite\\cruqsqlite\\cruqsqlite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BEA2DAD0-7A53-4024-BF19-8F52FEB78A19}|cruqSqlite\\cruqSqlite.csproj|solutionrelative:cruqsqlite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D38F6E59-700D-6FCA-5231-AF46F7C38037}|cruqSqlite\\cruqSqlite.csproj|c:\\users\\40974115860\\desktop\\csharp\\listandarray\\crudsqlite\\cruqsqlite\\cruqsqlite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D38F6E59-700D-6FCA-5231-AF46F7C38037}|cruqSqlite\\cruqSqlite.csproj|solutionrelative:cruqsqlite\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,9 +22,9 @@
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\40974115860\\Desktop\\csharp\\listAndArray\\crudSqlite\\cruqSqlite\\cruqSqlite\\Program.cs",
               "RelativeDocumentMoniker": "cruqSqlite\\Program.cs",
-              "ToolTip": "C:\\Users\\40974115860\\Desktop\\csharp\\listAndArray\\crudSqlite\\cruqSqlite\\cruqSqlite\\Program.cs*",
-              "RelativeToolTip": "cruqSqlite\\Program.cs*",
-              "ViewState": "AgIAAGgAAAAAAAAAAAAYwEYAAAA9AAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\40974115860\\Desktop\\csharp\\listAndArray\\crudSqlite\\cruqSqlite\\cruqSqlite\\Program.cs",
+              "RelativeToolTip": "cruqSqlite\\Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAFUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-30T17:48:40.965Z",
               "EditorCaption": ""

@@ -42,6 +42,12 @@ do
         case 2:
             AdicionarFrutas();
             break;
+        case 3:
+            AtualizarFrutas();
+            break;
+        case 4:
+            DeletarFrutas();
+            break;
         case 0:
             Console.WriteLine("Até mais");
             break;
@@ -51,6 +57,75 @@ do
     }
 
 } while(opcao != 0);
+void DeletarFrutas()
+{
+    Console.WriteLine("=== Lista de Frutas ===");
+    ListarFrutas();
+
+    Console.WriteLine("Informe qual fruta deseja remover: ");
+    string fruta = Console.ReadLine()!;
+
+    int posicao = listaFrutas.IndexOf(fruta);
+
+
+    if (!listaFrutas.Contains(fruta))
+    {
+        Console.WriteLine("A fruta não existe ou não foi encontrada!");
+    }
+    else if (fruta == "")
+    {
+        Console.WriteLine("Nome da fruta vazio.");
+    }
+    else
+    {
+        //Atualizar a fruta no banco
+        var deletar = conn.CreateCommand();
+        deletar.CommandText = (@"delete from frutas where nomeFruta = $nomeFruta");
+        deletar.Parameters.AddWithValue("$nomeFruta",posicao);
+        deletar.ExecuteNonQuery();
+        
+
+        listaFrutas.RemoveAt(posicao);
+        Console.WriteLine($"A fruta {fruta} foi removida com sucesso.");
+    }
+}
+void AtualizarFrutas()
+{
+    Console.WriteLine("=== Lista de Frutas ===");
+    ListarFrutas();
+
+    Console.WriteLine("Informe qual fruta deseja atualizar: ");
+    string fruta = Console.ReadLine()!;
+   
+        
+    Console.WriteLine("Informe a nova fruta: ");
+    string newFruta = Console.ReadLine()!.Trim().ToLower();
+
+    int posicao = listaFrutas.IndexOf(fruta);
+    
+        
+    if (posicao == -1)
+    {
+        Console.WriteLine("A fruta não existe ou não foi encontrada!");
+    }
+    else if (newFruta == "" ||  listaFrutas.Contains(newFruta))
+    {
+        Console.WriteLine("Nome da fruta vazio ou a fruta já existe na lista.");
+    }
+    else
+    {
+        //Atualizar a fruta no banco
+        var atualizar = conn.CreateCommand();
+        atualizar.CommandText = ("update frutas set nomeFruta = $novaFruta where nomeFruta = $antigaFruta");
+        atualizar.Parameters.AddWithValue("$novaFruta", newFruta);
+        atualizar.Parameters.AddWithValue("$antigaFruta", fruta);
+        atualizar.ExecuteNonQuery();
+
+        listaFrutas[posicao] = newFruta;
+        Console.WriteLine($"A fruta {fruta} foi atualizada para {newFruta}");
+    }
+
+}
 
 void AdicionarFrutas()
 {
@@ -93,7 +168,7 @@ void ListarFrutas()
 
         foreach (var f in listaFrutas)
         {
-            Console.WriteLine(f);
+            Console.WriteLine($"{f}");
         }
     }
 
