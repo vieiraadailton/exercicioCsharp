@@ -1,0 +1,15 @@
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\exerciciosLoops\exerciciosLoops\bin\Debug\net10.0\exerciciosLoops.exe
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\exerciciosLoops\exerciciosLoops\bin\Debug\net10.0\exerciciosLoops.deps.json
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\exerciciosLoops\exerciciosLoops\bin\Debug\net10.0\exerciciosLoops.runtimeconfig.json
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\exerciciosLoops\exerciciosLoops\bin\Debug\net10.0\exerciciosLoops.dll
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\exerciciosLoops\exerciciosLoops\bin\Debug\net10.0\exerciciosLoops.pdb
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\exerciciosLoops\exerciciosLoops\obj\Debug\net10.0\exerciciosLoops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\exerciciosLoops\exerciciosLoops\obj\Debug\net10.0\exerciciosLoops.AssemblyInfoInputs.cache
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\exerciciosLoops\exerciciosLoops\obj\Debug\net10.0\exerciciosLoops.AssemblyInfo.cs
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\exerciciosLoops\exerciciosLoops\obj\Debug\net10.0\exerciciosLoops.csproj.CoreCompileInputs.cache
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\exerciciosLoops\exerciciosLoops\obj\Debug\net10.0\exerciciosLoops.sourcelink.json
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\exerciciosLoops\exerciciosLoops\obj\Debug\net10.0\exerciciosLoops.dll
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\exerciciosLoops\exerciciosLoops\obj\Debug\net10.0\refint\exerciciosLoops.dll
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\exerciciosLoops\exerciciosLoops\obj\Debug\net10.0\exerciciosLoops.pdb
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\exerciciosLoops\exerciciosLoops\obj\Debug\net10.0\exerciciosLoops.genruntimeconfig.cache
+C:\Users\40974115860\Desktop\csharp\EstruturasRepeticao\exerciciosLoops\exerciciosLoops\obj\Debug\net10.0\ref\exerciciosLoops.dll

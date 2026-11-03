@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\40974115860\\Desktop\\csharp\\EstruturasRepeticao\\exerciciosLoops\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A7F7A9D4-5CC8-B211-7B72-AF63C44FD5A8}|exerciciosLoops\\exerciciosLoops.csproj|c:\\users\\40974115860\\desktop\\csharp\\estruturasrepeticao\\exerciciosloops\\exerciciosloops\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7F7A9D4-5CC8-B211-7B72-AF63C44FD5A8}|exerciciosLoops\\exerciciosLoops.csproj|solutionrelative:exerciciosloops\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\40974115860\\Desktop\\csharp\\EstruturasRepeticao\\exerciciosLoops\\exerciciosLoops\\Program.cs",
+              "RelativeDocumentMoniker": "exerciciosLoops\\Program.cs",
+              "ToolTip": "C:\\Users\\40974115860\\Desktop\\csharp\\EstruturasRepeticao\\exerciciosLoops\\exerciciosLoops\\Program.cs",
+              "RelativeToolTip": "exerciciosLoops\\Program.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-29T17:37:30.485Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
