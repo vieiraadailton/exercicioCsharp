@@ -17,5 +17,19 @@ namespace bibliotecaAPI.Services
         {
             return _livroRepository.ListarTodosLivros();
         }
+
+        public Livro Adicionar(Livro livro)
+        {
+            return _livroRepository.AdicionarLivro(livro);
+        }
+
+        public bool Atualizar(int id,Livro livro) {
+            return _livroRepository.AtualizarLivro(id, livro);
+        }
+
+        public bool Deletar(int id)
+        {
+            return _livroRepository.DeletarLivro(id);
+        }
     }
 }

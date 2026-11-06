@@ -33,17 +33,51 @@ namespace BibliotecaAPI.Repositories
 
         public Livro AdicionarLivro(Livro livro)
         {
-            throw new NotImplementedException();
+            using var conn = new SqliteConnection(_conexao);
+            conn.Open();
+            var comando = conn.CreateCommand();
+            
+
+            comando.CommandText = @"insert into livros (titulo, autor, ano_publicacao, disponivel) values ($nomeLivro, $nomeAutor, $ano, $dispo)";
+            comando.Parameters.AddWithValue("$nomeLivro", livro.Titulo);
+            comando.Parameters.AddWithValue("$nomeAutor", livro.Autor);
+            comando.Parameters.AddWithValue("$ano", livro.AnoPublicacao);
+            comando.Parameters.AddWithValue("$dispo", livro.LivroAlugado);
+            comando.ExecuteNonQuery();
+            return livro;
         }
 
         public bool AtualizarLivro(int id, Livro livro)
         {
-            throw new NotImplementedException();
+            using var conn = new SqliteConnection(_conexao);
+            conn.Open();
+            var comando = conn.CreateCommand();
+
+
+            comando.CommandText = @"update livros set titulo = $titulo, autor = $autor, ano_publicacao = $ano, disponivel = $dispo where idLivro = $id";
+            comando.Parameters.AddWithValue("$titulo", livro.Titulo);
+            comando.Parameters.AddWithValue("$autor", livro.Autor);
+            comando.Parameters.AddWithValue("$ano", livro.AnoPublicacao);
+            comando.Parameters.AddWithValue("$dispo", livro.LivroAlugado);
+            comando.Parameters.AddWithValue("$id", id);
+
+            int linhasModificadas = comando.ExecuteNonQuery();
+            
+            
+            return linhasModificadas > 0; //Verificar se houve modificacao do conteudo
         }
 
         public bool DeletarLivro(int id)
         {
-            throw new NotImplementedException();
+            using var conn = new SqliteConnection(_conexao);
+            conn.Open();
+            var comando = conn.CreateCommand();
+
+            comando.CommandText = @"delete from livros where idLivro = $id";
+            comando.Parameters.AddWithValue("$idLivro", id);
+            int modificacao = comando.ExecuteNonQuery();
+
+            return modificacao > 0;
         }
 
         public List<Livro> ListarTodosLivros()
@@ -54,8 +88,8 @@ namespace BibliotecaAPI.Repositories
             conn.Open();
 
             var comando = conn.CreateCommand();
-            comando.CommandText = @"SELECT idLivro, titulo, autor, ano_publicao, disponivel
-                                    FROM livro ORDER BY idLivro
+            comando.CommandText = @"SELECT idLivro, titulo, autor, ano_publicacao, disponivel
+                                    FROM livros ORDER BY idLivro
 ";
 
             using var leitor = comando.ExecuteReader();
